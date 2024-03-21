@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/IF3rQO50)
 # Quicksort Pivots
 
 in the lectures I only briefly mentioned strategies for determining a good pivot
@@ -19,3 +20,6 @@ quantitatively reason with them.
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+
+Choosing the first element of a list/array gives you a 50% chance of choosing a "good pivot" (one that will divide the array in to two nearly equal parts), by using the median-of-three method, your probability is $(1/3 * 1/3) + (1/3 * 1/3) + (1/3 * 1/3) = 1/3$ This is an increased probability of roughly 16.7% to choose a good pivot. 
