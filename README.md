@@ -22,4 +22,4 @@ page](https://docs.github.com/en/get-started/writing-on-github/working-with-adva
 might help with the notation for mathematical expressions.
 
 
-Choosing the first element of a list/array gives you a 50% chance of choosing a "good pivot" (one that will divide the array in to two nearly equal parts), by using the median-of-three method, your probability is $(1/3 * 1/3) + (1/3 * 1/3) + (1/3 * 1/3) = 1/3$ This is an improvment of 33.3%
+Choosing the first element of a list/array gives you a n/2 probability of choosing a "good pivot" (one that will divide the array in to two nearly equal parts), by using the median-of-three method, your probability is n/3, while this is less likely to choose a good pivot (one in three as opposed to one in two tries), it is commonly used for the fact that it reduces the occurrences in which you get a very large/small(not good) pivot.
